@@ -1,25 +1,42 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { FaFacebook, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-      <header className='flex px-[40px] justify-center items-center'>
-        <nav className='navbar'>
-          
-          <Link href='/'><span className='tracking-[0.2em] font-semibold text-secondary-300 hover:text-secondary duration-300 '>JUSTINE REI</span></Link>
-          
-          <div className="flex items-center gap-5 text-white-100">
-              <Link href='https://www.facebook.com/Tatin.janolino' className='max-w-xs transition duration-300 ease-in-out hover:scale-110'> 
-                <Image src="/fb.png" alt="facebook" width={30} height={30}/>
-              </Link>
+<nav>
+  <div className="fixed z-50 w-full">
+    <div className="navbar shadow-2xl bg-primary my-[40px] backdrop-filter backdrop-blur-lg bg-opacity-30 flex justify-between items-center px-4">
 
-              <Link href='https://github.com/justinerei' className='max-w-xs transition duration-300 ease-in-out hover:scale-110'>
-                <Image src="/github.png" alt="github" width={30} height={30}/>
-              </Link>
-          </div>
-        </nav>
-      </header>          
+      <div className="text-sm sm:text-xs md:text-base lg:text-base">
+        <Link href="/" className="hover-logo">JUSTINE REI</Link>
+      </div>
+
+      <div className="flex items-center space-x-4">
+        <a
+          href="https://www.facebook.com/Tatin.janolino"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          className="text-secondary-300 hover:text-gray-300 transition"
+        >
+          <FaFacebook className='w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8' />
+        </a>
+        <a
+          href="https://github.com/justinerei"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          className="text-secondary-300 hover:text-gray-300 transition"
+        >
+          <FaGithub className='w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8' />
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
   )
 }
 

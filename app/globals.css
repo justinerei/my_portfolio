@@ -9,11 +9,17 @@
   .text-42-jakarta {
     @apply text-[42px] font-plus-jakarta font-extrabold text-secondary-100;
   }
+  .text-32-jakarta {
+    @apply text-[32px] font-plus-jakarta font-extrabold text-secondary-100;
+  }
   .text-24-jakarta {
     @apply text-[24px] font-plus-jakarta font-extrabold text-primary-200;
   }
   .text-22-jakarta {
     @apply text-[22px] font-plus-jakarta font-semibold text-primary-200;
+  }
+  .text-14-jakarta {
+    @apply text-[14px] font-plus-jakarta font-normal text-primary-100 leading-[20px] mt-[10px];
   }
   .text-16-jakarta {
     @apply text-[16px] font-plus-jakarta font-semibold text-primary-200;
@@ -22,19 +28,28 @@
     @apply text-[16px] font-inter font-semibold text-secondary-300;
   }
   .text-12-inter {
-    @apply text-[12px] font-inter font-semibold text-secondary-300;
+    @apply text-[12px] font-inter font-semibold text-primary-100;
   }
   .text-12-inter-white {
     @apply text-[12px] font-inter font-semibold text-white;
   }
   .text-10-inter {
-    @apply text-[10px] font-inter font-semibold text-secondary-300;
-  }
-  .hero-section {
-    @apply w-full min-h-[530px] flex justify-center flex-col;
+    @apply text-[10px] font-inter font-semibold text-primary-100;
   }
   .navbar {
-    @apply flex justify-between items-center border px-[15px] py-[20px] w-[320px] h-[45px] rounded-3xl;
+    @apply mx-auto flex justify-between font-semibold items-center border-[0.5px] border-secondary-300 px-5 py-4 w-[320px] h-[45px] rounded-[15px] sm:w-[400px] md:w-[600px] lg:w-[826px] lg:h-[72px] lg:text-base lg:rounded-[20px] lg:px-[24px] lg:py-[26px];
+  }
+  .hover-logo {
+    @apply tracking-[0.15em] text-secondary-300 hover:text-secondary duration-300;
+  }
+  .hero-section {
+    @apply flex min-h-[530px] justify-center pt-52 px-6 sm:pr-14 md:pr-44 lg:pr-80 lg:pt-[310px];
+  }
+  .hero-section-title {
+    @apply font-plus-jakarta font-extrabold text-32-jakarta sm:text-3xl md:text-4xl lg:text-42-jakarta leading-[32px];
+  }
+  .abt-me {
+    @apply bg-secondary w-full h-[770px] rounded-[50px] mt-[128px] flex justify-center items-center;
   }
 }
 
