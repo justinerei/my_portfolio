@@ -4,8 +4,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-      <header className='flex px-16 py-10 justify-center items-center'>
-        <nav className='flex justify-between items-center border px-10 py-7 w-2/3 rounded-3xl'>
+      <header className='flex px-[40px] justify-center items-center'>
+        <nav className='navbar'>
           
           <Link href='/'><span className='tracking-[0.2em] font-semibold text-secondary-300 hover:text-secondary duration-300 '>JUSTINE REI</span></Link>
           

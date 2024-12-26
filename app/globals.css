@@ -3,39 +3,42 @@
 @tailwind utilities;
 
 @layer utilities {
-    .text-48-jakarta{
-        @apply text-[48px] font-plus-jakarta font-extrabold text-primary-200;
-    }
-    .text-42-jakarta{
-        @apply text-[42px] font-plus-jakarta font-extrabold text-secondary-100;
-    }
-    .text-24-jakarta{
-        @apply text-[24px] font-plus-jakarta font-extrabold text-primary-200;
-    }
-    .text-22-jakarta{
-        @apply text-[22px] font-plus-jakarta font-semibold text-primary-200;
-    }
-    .text-16-jakarta{
-        @apply text-[16px] font-plus-jakarta font-semibold text-primary-200;
-    }
-    .text-16-inter{
-        @apply text-[16px] font-inter font-semibold text-secondary-300;
-    }
-    .text-12-inter{
-        @apply text-[12px] font-inter font-semibold text-secondary-300;
-    }
-    .text-12-inter-white{
-        @apply text-[12px] font-inter font-semibold text-white;
-    }
-    .text-10-inter{
-        @apply text-[10px] font-inter font-semibold text-secondary-300;
-    }
-    .hero-section{
-        @apply w-full min-h-[530px] flex justify-center flex-col pl-[309px];
-    }
+  .text-48-jakarta {
+    @apply text-[48px] font-plus-jakarta font-extrabold text-primary-200;
+  }
+  .text-42-jakarta {
+    @apply text-[42px] font-plus-jakarta font-extrabold text-secondary-100;
+  }
+  .text-24-jakarta {
+    @apply text-[24px] font-plus-jakarta font-extrabold text-primary-200;
+  }
+  .text-22-jakarta {
+    @apply text-[22px] font-plus-jakarta font-semibold text-primary-200;
+  }
+  .text-16-jakarta {
+    @apply text-[16px] font-plus-jakarta font-semibold text-primary-200;
+  }
+  .text-16-inter {
+    @apply text-[16px] font-inter font-semibold text-secondary-300;
+  }
+  .text-12-inter {
+    @apply text-[12px] font-inter font-semibold text-secondary-300;
+  }
+  .text-12-inter-white {
+    @apply text-[12px] font-inter font-semibold text-white;
+  }
+  .text-10-inter {
+    @apply text-[10px] font-inter font-semibold text-secondary-300;
+  }
+  .hero-section {
+    @apply w-full min-h-[530px] flex justify-center flex-col;
+  }
+  .navbar {
+    @apply flex justify-between items-center border px-[15px] py-[20px] w-[320px] h-[45px] rounded-3xl;
+  }
 }
 
-body{
-    background-color: #0D0E11;
-    color: #fafaf4;
+body {
+  background-color: #0d0e11;
+  color: #fafaf4;
 }
