@@ -8,7 +8,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="hero-section">
         <span className="hero-section-title">
-          i'm justine, <br />
+        i&apos;m Justine, <br />
           first year bs info student. <br />
           future ui/ux designer.
         </span>
@@ -25,6 +25,7 @@ export default function Home() {
                 alt="Descriptive Alt Text"
                 width={436}
                 height={303}
+                quality={100}
                 className="w-full max-w-[436px] h-[303px] object-cover lg:w-[436px] lg:h-[303px] rounded-[29px]"
               />
             </div>
@@ -36,6 +37,7 @@ export default function Home() {
                 alt="Descriptive Alt Text"
                 width={436}
                 height={303}
+                quality={100}
                 className="w-full max-w-[436px] h-[303px] object-cover lg:w-[436px] lg:h-[303px] rounded-[29px]"
               />
             </div>
@@ -54,6 +56,7 @@ export default function Home() {
                 alt="Main Box Picture"
                 width={354}
                 height={400}
+                quality={100}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -108,6 +111,7 @@ export default function Home() {
               alt="Skills"
               width={362}
               height={106}
+              quality={100}
               className="w-full h-auto object-contain"
             />
           </div>
@@ -129,6 +133,7 @@ export default function Home() {
                   alt="Main Box Picture"
                   width={290}
                   height={183}
+                  quality={100}
                   className="w-[290px] h-[183px] rounded-[24px] shadow-xl shadow-sd-color-100 mb-[1rem]"
                 />
                 <span className="text-24-jakarta pl-[16px] mt-[2rem]">
@@ -144,6 +149,7 @@ export default function Home() {
                   alt="Main Box Picture"
                   width={290}
                   height={183}
+                  quality={100}
                   className="w-[290px] h-[183px] rounded-[24px] shadow-xl shadow-sd-color-200 mb-[1rem]"
                 />
                 <span className="text-24-jakarta pl-[16px] mt-[2rem]">
@@ -159,6 +165,7 @@ export default function Home() {
                   alt="Main Box Picture"
                   width={290}
                   height={183}
+                  quality={100}
                   className="w-[290px] h-[183px] rounded-[24px] shadow-xl shadow-sd-color-300 mb-[1rem]"
                 />
                 <span className="text-24-jakarta pl-[16px] mt-[2rem]">

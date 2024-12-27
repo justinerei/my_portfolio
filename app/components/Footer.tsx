@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="text-center lg:text-left">
             <h1 className="uppercase text-12-inter tracking-[0.15em]">Justine Rei</h1>
             <h2 className="text-20-jakarta mt-[1rem] lowercase">
-                I'm Justine, <br />
+                i&apos;m Justine, <br />
                 first-year BS Info student. <br />
                 Future UI/UX designer.
             </h2>

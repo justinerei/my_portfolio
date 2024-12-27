@@ -1,5 +1,6 @@
 'use client';
 import React, { FormEvent, useRef, useState } from 'react';
+import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 import Modal from './Modal';
 
@@ -96,10 +97,12 @@ const Contact = () => {
         </div>
         {/* Image Section */}
         <div className="hidden lg:flex w-full lg:w-1/2 flex-col items-center justify-center mt-[35px] lg:mt-0">
-          <img
+          <Image
             src="/contact-pic.png"
             alt="Contact Illustration"
-            className="max-w-[411px] rounded-[24px]"
+            width={414} 
+            height={411}
+            quality={100}
           />
           <span className="text-10-inter tracking-[0.15em] mt-[15px]">@illiyinstudio</span>
         </div>
