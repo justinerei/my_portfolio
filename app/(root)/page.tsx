@@ -127,7 +127,9 @@ export default function Home() {
               Projects  
             </span>
             <div className="w-full flex flex-col lg:flex-row justify-center items-center space-y-8 lg:space-y-0 lg:space-x-8 pt-[2rem]">
-              <div className="w-full max-w-[380px] h-[420px] overflow-hidden rounded-[50px] border-secondary-300 border-[0.5px] px-[45px] py-[45px] hover:shadow-xl hover:shadow-sd-color-100 duration-300 cursor-pointer">
+              <a href="https://justinerei.github.io/gym-buddy/"
+              rel="noopener noreferrer">
+                <div className="w-full max-w-[380px] h-[420px] overflow-hidden rounded-[50px] border-secondary-300 border-[0.5px] px-[45px] py-[45px] hover:shadow-xl hover:shadow-sd-color-100 duration-300 cursor-pointer">
                 <Image
                   src="/recProj1.png"
                   alt="Main Box Picture"
@@ -143,6 +145,8 @@ export default function Home() {
                   Final Project in <br /> Entrepreneur <span className="text-12-inter-white ml-[44px] lowercase">/ march 2024</span>
                 </p>
               </div>
+              </a>
+              <a href="https://justinerei.github.io/tara_gym/" rel="noopener noreferrer">
               <div className="w-full max-w-[380px] h-[420px] overflow-hidden rounded-[50px] border-secondary-300 border-[0.5px] px-[45px] py-[45px] hover:shadow-xl hover:shadow-sd-color-200 duration-300 cursor-pointer">
                 <Image
                   src="/recProj3.png"
@@ -159,6 +163,7 @@ export default function Home() {
                   Final Project in <br /> Comprog5 <span className="text-12-inter-white ml-[60px] lowercase">/ january 2024</span>
                 </p>
               </div>
+              </a>
               <div className="w-full max-w-[380px] h-[420px] overflow-hidden rounded-[50px] border-secondary-300 border-[0.5px] px-[45px] py-[45px] hover:shadow-xl hover:shadow-sd-color-300 duration-300 cursor-pointer">
                 <Image
                   src="/recProj4.png"
