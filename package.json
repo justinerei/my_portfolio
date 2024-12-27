@@ -14,9 +14,11 @@
     "react-dom": "$react-dom"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/typography": "^0.5.15",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "emailjs-com": "^3.2.0",
     "lucide-react": "^0.469.0",
     "next": "15.1.2",
     "react": "^19.0.0",

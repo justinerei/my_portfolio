@@ -9,11 +9,17 @@
   .text-42-jakarta {
     @apply text-[42px] font-plus-jakarta font-extrabold text-secondary-100;
   }
+  .text-32-jakarta-green {
+    @apply text-[32px] font-plus-jakarta font-extrabold text-green-600;
+  }
   .text-32-jakarta {
     @apply text-[32px] font-plus-jakarta font-extrabold text-secondary-100;
   }
+  .text-20-jakarta {
+    @apply text-[20px] font-plus-jakarta font-extrabold text-secondary-100;
+  }
   .text-24-jakarta {
-    @apply text-[24px] font-plus-jakarta font-extrabold text-primary-200;
+    @apply text-[24px] font-plus-jakarta font-extrabold text-secondary;
   }
   .text-22-jakarta {
     @apply text-[22px] font-plus-jakarta font-semibold text-primary-200;
@@ -21,17 +27,26 @@
   .text-14-jakarta {
     @apply text-[14px] font-plus-jakarta font-normal text-primary-100 leading-[20px] mt-[10px];
   }
+  .text-14-jakarta-white {
+    @apply text-[14px] font-plus-jakarta font-normal text-secondary-100;
+  }
   .text-16-jakarta {
     @apply text-[16px] font-plus-jakarta font-semibold text-primary-200;
   }
   .text-16-inter {
     @apply text-[16px] font-inter font-semibold text-secondary-300;
   }
+  .text-16-jakarta-white {
+    @apply text-[16px] font-plus-jakarta font-normal text-white;
+  }
   .text-12-inter {
     @apply text-[12px] font-inter font-semibold text-primary-100;
   }
   .text-12-inter-white {
     @apply text-[12px] font-inter font-semibold text-white;
+  }
+  .text-10-inter-white {
+    @apply text-[10px] font-inter font-semibold text-white;
   }
   .text-10-inter {
     @apply text-[10px] font-inter font-semibold text-primary-100;
@@ -49,7 +64,13 @@
     @apply font-plus-jakarta font-extrabold text-32-jakarta sm:text-3xl md:text-4xl lg:text-42-jakarta leading-[32px];
   }
   .abt-me {
-    @apply bg-secondary w-full h-[770px] rounded-[50px] mt-[128px] flex justify-center items-center;
+    @apply bg-secondary w-full rounded-[50px] mt-[128px] flex justify-center items-center px-4 py-8 lg:py-16;
+  }
+  .recent-project {
+    @apply w-full rounded-[50px] mt-[100px] flex justify-center items-center px-4 py-8 lg:py-16;
+  }
+  .footer {
+    @apply w-full border-r-[0.5px] border-t-[0.5px] border-l-[0.5px] border-secondary-300 mt-[150px] flex flex-col items-center px-4 pb-[24px] pt-[62px] rounded-tl-[70px] rounded-tr-[70px] overflow-hidden;
   }
 }
 

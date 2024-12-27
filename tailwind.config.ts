@@ -25,6 +25,11 @@ const config: Config = {
                     "300": "#FFFFFF80",
                     DEFAULT: "#FAFAF4",
                 },
+                'sd-color': {
+                    '100': 'rgba(172, 25, 41, 0.5)',
+                    '200': 'rgba(151, 251, 87, 0.5)',
+                    '300': 'rgba(217, 217, 217, 0.5)',
+                }
             },
             fontFamily: {
                 "inter": ["var(--font-inter)"],
