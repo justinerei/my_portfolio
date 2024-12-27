@@ -8,7 +8,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="hero-section">
         <span className="hero-section-title">
-        i&apos;m Justine, <br />
+        i&apos;m justine, <br />
           first year bs info student. <br />
           future ui/ux designer.
         </span>
