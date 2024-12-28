@@ -75,7 +75,7 @@ export default function Home() {
                     About Me 
                   </span>
                   <p className="text-16-jakarta mt-2">
-                    I’m 18 years old. Lives in San Pablo City, Laguna, Philippines.
+                    I’m 18 years old. I live in San Pablo City, Laguna, Philippines.
                   </p>
                 </div>
                 <div>
