@@ -1,13 +1,14 @@
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Image from 'next/image'; // Import the Image component for optimized images
+import Image from 'next/image'; 
+
 
 export default function Home() {
   return (
     <>
       {/* HERO SECTION */}
       <section className="hero-section">
-        <span className="hero-section-title">
+        <span className="hero-section-title" data-aos="zoom-in" data-aos-duration="500">
         i&apos;m justine, <br />
           first year bs info student. <br />
           future ui/ux designer.
